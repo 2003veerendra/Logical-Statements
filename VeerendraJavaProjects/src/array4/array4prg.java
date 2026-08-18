@@ -1,0 +1,29 @@
+package array4;
+
+public class array4prg {
+
+    public static void main(String[] args) {
+
+        int[][] number = new int[3][4];
+
+        number[0][0] = 10;
+        number[0][1] = 20;
+        number[0][2] = 30;
+        number[0][3] = 40;
+
+        number[1][0] = 40;
+        number[1][1] = 50;
+        number[1][2] = 60;
+        number[1][3] = 70;
+
+        for (int i = 0; i < number.length; i++) {
+
+            for (int j = 0; j < number[i].length; j++) {
+
+                System.out.print(number[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+    }
+}
